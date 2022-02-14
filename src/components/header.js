@@ -1,12 +1,18 @@
 import React from 'react';
-import Axios from "axios";
+import "../css/bootstrap.min.css"
+import "../css/font-awesome.min.css"
+import "../css/magnific-popup.css"
+import "../css/responsive.css"
+import "../css/style.css"
+import "../css/slick.css"
 
-const Header = () =>{
-    return(
+
+const header = () => {
+    return (
         <div>
-            <h1> Header </h1>
+        hello
         </div>
     )
 }
 
-export default Header;
+export default header
