@@ -1,6 +1,8 @@
-@charset "UTF-8";
-@import "../../../../../css2";
-@import "../../../../../css2-1";
+/* @charset "UTF-8";
+@import './css2-1.css';
+@import './css2.css'; */
+
+
 :root {
   --thm-font: "Dosis", cursive;
   --thm-b-font: "Roboto", sans-serif;
@@ -439,6 +441,20 @@ textarea.form-control-custom + i {
   align-items: center;
   border: 2px solid transparent;
   padding: 8px 35px;
+  transition: 0.5s all;
+  font-weight: 500;
+  background-color: var(--thm-color-one);
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.thm-btn1 {
+  /* font-size: 18px; */
+  color: var(--thm-white);
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid transparent;
+  /* padding: 8px 35px; */
   transition: 0.5s all;
   font-weight: 500;
   background-color: var(--thm-color-one);
@@ -1067,6 +1083,7 @@ textarea.form-control-custom + i {
   font-weight: 700;
 }
 .product_block {
+  /* width: 25%; */
   position: relative;
   padding: 20px;
   margin-bottom: 30px;
