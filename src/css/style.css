@@ -1851,7 +1851,7 @@ textarea.form-control-custom+i {
 }
 
 .contact_map {
-    padding: 40px;
+    padding: 20px;
     background-color: var(--thm-color-three);
     height: 100%
 }
